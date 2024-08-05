@@ -7,7 +7,6 @@ letters = ["А", "Б", "В", "Г", "Д", "Е", "Ё", "Ж",
            "З", "И", "Й", "К", "Л", "М", "Н", "О",
            "П", "Р", "С", "Т", "У", "Ф", "Х", "Ц",
            "Ч", "Ш", "Щ", "Э", "Ю", "Я"]
-gone = []
 players = []
 players_words = []
 players_letters = []
@@ -23,7 +22,7 @@ def play():
         print(f"\nИгрок: {players[n_player]}. Буква: {current_letter}")
         sleep(30)
         print("Стоп, время закончилось!")
-        playsound('C:/Users/ezuba/Documents/Hobby programms/TableTimeImpro/na_bukvu/budilnik/1.mp3')
+        playsound('na_bukvu/budilnik/1.mp3')
         players_words[n_player] += int(input("Сколько слов получилось: "))
 
 
